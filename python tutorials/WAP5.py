@@ -9,3 +9,6 @@ L1 = [1, 2, 3, 4, 5, 6, 7]
 print(swap(L1))
 #hello world
 l3=[]
+
+
+l6=[]
