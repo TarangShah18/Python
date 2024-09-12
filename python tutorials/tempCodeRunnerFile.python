@@ -1,0 +1,18 @@
+
+# capitals.pop("China")
+# print(capitals.popitem())
+# keys = capitals.keys()
+# values = capitals.values()
+# for key in capitals.keys():
+#     print(key)
+#for value in capitals.values():
+#     print(value)
+# items = capitals.items()
+# for item in capitals.items():
+#     print(item)
+
+
+
+
+
+print(items)

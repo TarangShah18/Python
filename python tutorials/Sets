@@ -1,0 +1,33 @@
+fruits = {"apple", "orange", "banana", "coconut", "coconut"}
+
+# print(fruits[0])
+
+# fruits.pop()
+# print(fruit)
+
+# print(len(fruits))
+# print("pineapple" in fruits)
+
+# fruits[0] = "pineapple"
+# print(fruits)
+
+# fruits.add("pineapple")
+# print(fruits)
+
+# fruits.remove("apple")
+# print(fruits)
+
+# fruits.insert(0, "pineapple")
+
+# fruits.sort()
+
+# fruits.reverse()
+
+# fruits.clear()
+
+# print(fruits.index("coconut"))
+
+# print(fruits.count("coconut"))
+
+
+print(fruits)

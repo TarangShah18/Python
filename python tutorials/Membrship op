@@ -1,0 +1,65 @@
+# Membership operators  = used to test whether a value or a variable is found in a sequence
+#                         (string, list, tupple, set or dictionary)
+#                         1. in 
+#                         2. not in
+
+# secret_word = "Messi"
+
+# letter = input("Guess a letter in the secret word: ")
+
+# if letter in secret_word:
+#     print(f"There is an {letter}")
+# else:
+#     print(f"{letter} was not found")
+
+# if letter not in secret_word:
+#     print(f"{letter} was not found")
+# else:
+#     print(f"There is an {letter}")
+
+##############################################################################
+# For Sets, Lists and Tupples
+
+# students = {"Tarang", "Paree", "Dhiraj", "Bhagu"}
+
+# student = input("Enter the name of a student: ")
+
+# if student in students:
+#     print(f"{student} is a student")
+# else:
+#     print(f"{student} was not found")
+
+# if student not in students:
+#     print(f"{student} was not found")
+# else:
+#     print(f"{student} is a student")
+    
+###############################################################################
+# For Dictionaries
+
+# grades = {"Tarang": "A", 
+#           "Paree": "B", 
+#          "Dhiraj": "C", 
+#           "Bhagu": "D"}
+
+# student = input("Enter the name of a student: ")
+
+# if student in grades:
+#     print(f"{student}'s grade is {grades[student]}")
+# else:
+#     print(f"{student} was not found")
+
+# if student not in grades:
+#     print(f"{student} was not found")
+# else:
+#     print(f"{student}'s grade is {grades[student]}")
+
+################################################################################
+# Another Example
+
+# email = input("Enter an email: ")
+
+# if "@" in email and "." in email:
+#     print("Valid!")
+# else:
+#     print("Invalid!!")

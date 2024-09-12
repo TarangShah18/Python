@@ -1,0 +1,32 @@
+fruits = ["apple", "orange", "banana", "coconut"]
+vegies = ["celery", "carrots", "potatoes"]
+meats = ["chicken", "fish", "turkey"]
+
+groce = [fruits, vegies, meats]
+print(groce)
+
+
+["apple", "orange", "banana", "coconut"]
+["celery", "carrots", "potatoes"]
+["chicken", "fish", "turkey"]
+
+groce = [["apple", "orange", "banana", "coconut"], 
+        ["celery", "carrots", "potatoes"], 
+        ["chicken", "fish", "turkey"]]
+
+for collection in groce:
+    for row in collection:
+        print(row, end = " ")
+    print()
+
+# Numpad Exercise
+
+num_pad = ((1, 2, 3), 
+           (4, 5, 6), 
+           (7, 8, 9), 
+           ("*", 0, "#"))
+
+for row in num_pad:
+    for num in row:
+        print(num, end = " ")
+    print()

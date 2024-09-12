@@ -1,0 +1,7 @@
+rows = int(input("Enter no of rows: "))
+symbol = input("Enter symbol to use: ")
+
+for x in range(rows):
+    print(" "*(rows-x-1),end = "")
+    print(symbol*(2*x+1),end = "")
+    print(" "*(rows-x-1))
